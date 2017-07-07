@@ -275,9 +275,6 @@
         
         
         _searchController.searchBar.delegate = self;
-//        _searchController.delegate = self;
-        
-        
     }
     return _searchController;
 }
