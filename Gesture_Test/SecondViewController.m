@@ -161,8 +161,6 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;  // 去掉选中效果
     cell.focusStyle = UITableViewCellStyleSubtitle;
     cell.imageView.image = [UIImage imageNamed:@"搜索"];
-//    cell.imageView.clipsToBounds = YES;
-    
     cell.textLabel.text = self.dataArray[indexPath.row];
     return cell;
 }
@@ -275,9 +273,6 @@
         
         
         _searchController.searchBar.delegate = self;
-//        _searchController.delegate = self;
-        
-        
     }
     return _searchController;
 }
@@ -290,18 +285,6 @@
     return _dataArray;
 }
 
-
-//-(UISearchBar *)searchBar
-//{
-//    if (!_searchBar) {
-//        _searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 0, 50)];
-//        _searchBar.placeholder = @"搜索";
-//        _searchBar.searchBarStyle = UISearchBarStyleDefault;
-//        _searchBar.barTintColor = [UIColor whiteColor];
-//        _searchBar.delegate = self;
-//    }
-//    return _searchBar;
-//}
 
 @end
 

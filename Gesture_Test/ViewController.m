@@ -118,7 +118,6 @@
             self.shadowView.frame = CGRectMake(0, stopY, self.view.frame.size.width, [UIScreen mainScreen].bounds.size.height);
         }];
     }];
-    
     // 记录shadowView在第一个视图中的位置
     self.vc.offsetY = stopY;
 }
@@ -239,7 +238,7 @@
         _vc = [[SecondViewController alloc] init];
     
         
-        // -------------- 添加手势 平移手势  -----------
+        // -------------- 添加手势 轻扫手势  -----------
         self.swipe1 = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipe:)];
         self.swipe1.direction = UISwipeGestureRecognizerDirectionDown ; // 设置手势方向
         //    [self.view addGestureRecognizer:swipe];

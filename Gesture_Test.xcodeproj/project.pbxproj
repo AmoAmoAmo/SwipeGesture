@@ -14,6 +14,7 @@
 		C432570F1F0B78740064188D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C432570E1F0B78740064188D /* Assets.xcassets */; };
 		C43257121F0B78740064188D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43257101F0B78740064188D /* LaunchScreen.storyboard */; };
 		C432571B1F0B789B0064188D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432571A1F0B789B0064188D /* SecondViewController.m */; };
+		C47867991F12026B00FB708A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47867981F12026B00FB708A /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C43257131F0B78740064188D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C43257191F0B789B0064188D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C432571A1F0B789B0064188D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C47867971F12026B00FB708A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C47867981F12026B00FB708A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				C43257101F0B78740064188D /* LaunchScreen.storyboard */,
 				C43257131F0B78740064188D /* Info.plist */,
 				C43257021F0B78740064188D /* Supporting Files */,
+				C47867971F12026B00FB708A /* RootViewController.h */,
+				C47867981F12026B00FB708A /* RootViewController.m */,
 			);
 			path = Gesture_Test;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				C432570A1F0B78740064188D /* ViewController.m in Sources */,
 				C43257071F0B78740064188D /* AppDelegate.m in Sources */,
 				C43257041F0B78740064188D /* main.m in Sources */,
+				C47867991F12026B00FB708A /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +324,7 @@
 				C43257181F0B78740064188D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
